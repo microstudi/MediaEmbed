@@ -227,8 +227,8 @@ class MediaObject implements ObjectInterface {
 			} else {
 				$this->_iframeParams[$param] = $value;
 			}
-		}
-		else {
+
+		} else {
 			if (is_array($param)) {
 				foreach ($param as $p => $v) {
 					$this->_objectParams[$p] = $v;
@@ -261,8 +261,8 @@ class MediaObject implements ObjectInterface {
 			} else {
 				$this->_iframeAttributes[$param] = $value;
 			}
-		}
-		else {
+
+		} else {
 			if (is_array($param)) {
 				foreach ($param as $p => $v) {
 					$this->_objectAttributes[$p] = $v;
